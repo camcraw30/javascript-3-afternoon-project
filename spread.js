@@ -19,7 +19,7 @@ let product = {
 
 // code here
 
-
+let productCopy = (...product) =>{}
 
 
 ////////// PROBLEM 2 //////////
@@ -30,9 +30,9 @@ let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 
 // code here
 
+let colorsCopy = (...colors) =>{}
 
-
-
+console.log(colorsCopy)
 ////////// PROBLEM 3 //////////
 
 /* Here we have an array with 3 numbers, and a function that takes in 3 numbers as arguments.  Invoke addNums, and use the spread operator to pass in the numbers from the numbers array; and store the value to a variable named result */

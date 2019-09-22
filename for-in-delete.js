@@ -40,8 +40,12 @@
 */
 
 function showValues( obj ) {
-  //Code Here
-}
+  let string = ''
+  for (let key in obj){
+    console.log(obj[key])
+    string = string + obj[key]
+  } return string;
+};
 
 
 
@@ -54,7 +58,13 @@ function showValues( obj ) {
 */
 
 //Code Here
-
+function greaterThan10(obj){
+  let string = ""
+  for (let key in obj){
+    console.log(obj[key])
+    string = string + obj[key]
+  } return string;
+}
 
 
 ////////// PROBLEM 3 //////////

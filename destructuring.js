@@ -22,9 +22,20 @@ var carDetails = {
 */
 
 //Code Here
+let toDestructure;
 
+let {color, make, model, year} = carDetails 
 
+console.log(color, make, model, year)
 
+let objToDestructure = {
+  color: "gray", 
+  make: "mitsubishi", 
+  model: "lancer",
+  year: "2005"
+}
+
+let {c, m, mo, y} = objToDestructure
 ////////// PROBLEM 2 //////////
 
 /*
@@ -35,7 +46,13 @@ var carDetails = {
 
 function greeting( obj ) {
   //Code Here
-  
+  let obj2  = {
+    title: "Mr.",
+    firstName: "Cam",
+    lastName: "Crawford" 
+  };
+
+  let {title, firstName, lastName} = obj
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
@@ -54,7 +71,9 @@ function greeting( obj ) {
 */
 
 //Code Here
+function totalPopulation(obj){
 
+}
 
 
 ////////// PROBLEM 4 //////////

@@ -52,7 +52,11 @@ var employees = [
 
 //Code Here
 
-
+function employeeUpdater(){
+  if (element === "Theo"){
+    return (employees.department)
+  }
+};
 
 ////////// PROBLEM 2 //////////
 
@@ -69,6 +73,11 @@ var workplaceAccidents = [12, 56, 44, 3, 29, 56, 56, 3, 7, 12];
 */
 
 //Code Here
+function removeDuplicates(){
+  console.log(workplaceAccidents[1].two[56])
+  return workplaceAccidents
+}
+
 
 
 
@@ -97,8 +106,8 @@ var cat = {
 */
 
 //Code Here
-var grumpyActivity;
-var fluffy2ndFriend;
+var grumpyActivity = "eat food";
+var fluffy2ndFriend = "Lazy Bones";
 
 
 
