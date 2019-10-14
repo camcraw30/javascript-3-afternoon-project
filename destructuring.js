@@ -46,7 +46,7 @@ let {c, m, mo, y} = objToDestructure
 
 function greeting( obj ) {
   //Code Here
-  let obj2  = {
+  let obj1  = {
     title: "Mr.",
     firstName: "Cam",
     lastName: "Crawford" 
@@ -72,9 +72,11 @@ function greeting( obj ) {
 
 //Code Here
 function totalPopulation(obj){
-
+  let obj2 = {
+    utah: 140381,
+    california: 195316,
+  }
 }
-
 
 ////////// PROBLEM 4 //////////
 
@@ -88,8 +90,13 @@ function totalPopulation(obj){
 
 //Code Here
 
-
-
+function ingredients(obj) {
+  let obj3 = {
+    carb: "",
+    fat: "",
+    protein: ""
+  }
+}
 ////////// PROBLEM 5 //////////
 
 /*

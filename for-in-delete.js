@@ -58,12 +58,20 @@ function showValues( obj ) {
 */
 
 //Code Here
+var obj = {
+  first: 3,
+  second: 10,
+  third: 12
+}
+
 function greaterThan10(obj){
-  let string = ""
+
   for (let key in obj){
-    console.log(obj[key])
-    string = string + obj[key]
-  } return string;
+    if (obj[key] > 10){
+      obj[key] = 0;
+    }
+  } 
+  return obj;
 }
 
 
